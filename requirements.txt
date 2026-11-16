@@ -1,0 +1,12 @@
+react
+react-dom
+vite
+@vitejs/plugin-react
+tailwindcss
+@tailwindcss/vite
+three
+@react-three/fiber
+@react-three/drei
+framer-motion
+lucide-react
+@emailjs/browser
