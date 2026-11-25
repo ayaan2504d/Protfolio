@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import CustomCursor from "./components/CustomCursor.jsx";
 import Footer from "./components/Footer.jsx";
 import Loader from "./components/Loader.jsx";
@@ -42,6 +43,7 @@ export default function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </>
   );
 }
